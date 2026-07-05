@@ -19,7 +19,7 @@ jobs:
 
     - name: Build Docker Image
 
-      run: docker build -t insurance-app ./App
+      run: docker build -t insurance-app ./src
 
     - name: Test Container
 
